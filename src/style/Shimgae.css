@@ -1,0 +1,35 @@
+.image-container {
+    display: flex;
+    flex-direction: column; /* Tampilkan gambar dalam satu kolom */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin: 20px auto;
+    margin-bottom: 200px;
+}
+
+/* Style untuk gambar di bagian atas */
+.top-image {
+    margin-top: 130px;
+}
+
+/* Style untuk gambar di bagian bawah */
+.bottom-image {
+    margin-top: 10px; /* Jarak antara gambar */
+}
+
+/* Default style untuk gambar */
+#Dimage1, #Dimage2 {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+}
+
+/* Media query for window size less than 600px */
+@media screen and (max-width: 600px) {
+    #Dimage1{
+        content: url(./assets/image/SHimage/mitsuha-after.jpg);
+    }
+}

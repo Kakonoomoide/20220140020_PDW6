@@ -1,0 +1,97 @@
+.info {
+    background-color: #36558f; /* background */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding around text */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No decoration */
+    display: inline-block; /* Make it a block element */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Set margin */
+    cursor: pointer; /* Make it look like a button */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1); /* Shadow around button */
+    margin-bottom: 150px;
+  }
+  
+  .info:hover {
+    background-color: #96ACB7;
+    color: black;
+  }
+  
+  .info:active {
+    background-color: #222; /*on active */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Shadow around button on active */
+  }
+  
+
+.infopopup {
+    display: none; /* Sembunyikan elemen secara default */
+    position: fixed; /* Tetap di tempat saat scroll */
+    top: 50%; /* Posisikan di tengah vertikal */
+    left: 50%; /* Posisikan di tengah horizontal */
+    transform: translate(-50%, -50%); /* Geser ke tengah layar */
+    z-index: 2; /* Pastikan tampil di atas elemen lain */
+}
+
+.infocard {
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 350px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:#e2eaf4;
+    opacity: 80;
+    margin-top: 8%;
+
+}
+.infocard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-bottom: 1px;
+}
+
+.btninfo {
+    background-color: #36558f; /* background */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding around text */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No decoration */
+    display: inline-block; /* Make it a block element */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Make it look like a button */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1); /* Shadow around button */
+    top: 5px;
+    margin-left: 355px;
+}
+
+.btninfo:hover {
+    background-color: #96ACB7;
+    color: black;
+}
+
+.btninfo:active {
+    background-color: #222; /*on active */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Shadow around button on active */
+}
+#infoCntr {
+    margin-top: 1px;
+    margin-bottom: 5;
+}
+
+#infotxt {
+    font-family: 'Dreaming';
+    color: #222;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+}

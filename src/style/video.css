@@ -1,0 +1,48 @@
+.SHvideo{
+    width: 100vh;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.SHvideo .slider{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 150px;
+}
+
+
+.SHvideo ul{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;    
+}
+
+.SHvideo ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 15px;
+}
+
+
+.SHvideo ul li video{
+    width: 200px;
+    transition: all 0.3s;
+}
+.SHvideo ul li video:hover{
+    transform: scale(1.2);
+}
+
+video{
+    width: 200px;
+    height: 300px;
+}

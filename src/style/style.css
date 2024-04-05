@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex; /* Gunakan flexbox */
+  flex-direction: column;
+  align-items: center; /* Pusatkan vertikal */
+  justify-content: center; /* Pusatkan horizontal */
+  background-image: url('/assets/image/BG.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+#myText {
+  cursor: pointer; /* Tambahkan cursor pointer */
+  background-color: #36558f; /* Warna latar */
+  border: none; /* Tidak ada batas */
+  color: white; /* Warna teks */
+  padding: 15px 32px; /* Padding di sekitar teks */
+  text-align: center; /* Pusatkan teks */
+  text-decoration: none; /* Tanpa dekorasi */
+  display: inline-block; /* Buatnya menjadi elemen blok */
+  font-size: 16px; /* Ukuran font */
+  border-radius: 12px; /* Sudut melengkung */
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1); /* Bayangan tombol */
+  margin: 0 auto; /* Atur margin atas dan bawah ke 0, dan otomatis di tengah */
+}
+
+#myText:hover {
+  background-color: #96ACB7; /* Warna latar saat dihover */
+  color: black; /* Warna teks saat dihover */
+}
+
+#myText:active {
+  background-color: #222; /* Warna latar saat aktif */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Bayangan saat aktif */
+}
