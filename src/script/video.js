@@ -1,3 +1,3 @@
-function videoslider(links){
-    document.querySelector(".slider").src = links;
+function videoslider(links) {
+  document.querySelector(".slider").src = links;
 }

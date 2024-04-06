@@ -14,27 +14,27 @@ const music = new Audio();
 
 const songs = [
   {
-    path: './assets/audio/Dream lantern.mp3',
+    path: "./assets/audio/Dream lantern.mp3",
     displayName: "Dream lantern (夢灯籠)",
-    cover: './assets/image/cover/Dream lantern.jpg',
+    cover: "./assets/image/cover/Dream lantern.jpg",
     artist: "RADWIMPS",
   },
   {
-    path: './assets/audio/Katawaredoki.mp3',
+    path: "./assets/audio/Katawaredoki.mp3",
     displayName: "Katawaredoki (彼は誰)",
-    cover: './assets/image/cover//Katawaredoki.jpg',
+    cover: "./assets/image/cover//Katawaredoki.jpg",
     artist: "RADWIMPS",
   },
   {
-    path: './assets/audio/Nandemonaiya.mp3',
+    path: "./assets/audio/Nandemonaiya.mp3",
     displayName: "Nandemonaiya (なんでもないや)",
-    cover: './assets/image/cover/Nandemonaiya.jpeg',
+    cover: "./assets/image/cover/Nandemonaiya.jpeg",
     artist: "RADWIMPS",
   },
   {
-    path: './assets/audio/sparkle.mp3',
+    path: "./assets/audio/sparkle.mp3",
     displayName: "sparkle (スパークル)",
-    cover: './assets/image/cover/sparkle.jpeg',
+    cover: "./assets/image/cover/sparkle.jpeg",
     artist: "RADWIMPS",
   },
 ];
@@ -70,6 +70,7 @@ function pauseMusic() {
 
 function loadMusic(song) {
   music.src = song.path;
+  music.preload = "auto"; // Preloading audio
   title.textContent = song.displayName;
   artist.textContent = song.artist;
   image.src = song.cover;

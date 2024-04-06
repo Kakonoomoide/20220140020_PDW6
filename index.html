@@ -47,13 +47,18 @@
           src="./assets/image/SHimage/mitsuha.jpg"
           alt="Dimage1"
           id="Dimage1"
+          loading="lazy"
         />
       </div>
       <div class="bottom-image">
-        <img src="./assets/image/SHimage/taki.jpg" alt="Dimage2" id="Dimage2" />
+        <img
+          src="./assets/image/SHimage/taki.jpg"
+          alt="Dimage2"
+          id="Dimage2"
+          loading="lazy"
+        />
       </div>
     </div>
-
     <!-- end img responsive-->
 
     <!-- text -->
@@ -70,6 +75,7 @@
         autoplay
         loop
         muted
+        loading="lazy"
       ></video>
 
       <ul>
@@ -77,24 +83,28 @@
           <video
             src="./assets/video/1.mp4"
             poster="./assets/image/thumbnile/1.jpg"
+            loading="lazy"
           ></video>
         </li>
         <li onclick="videoslider('./assets/video/3.mp4')">
           <video
             src="./assets/video/3.mp4"
             poster="./assets/image/thumbnile/3.jpg"
+            loading="lazy"
           ></video>
         </li>
         <li onclick="videoslider('./assets/video/4.mp4')">
           <video
             src="./assets/video/4.mp4"
             poster="./assets/image/thumbnile/4.jpg"
+            loading="lazy"
           ></video>
         </li>
         <li onclick="videoslider('./assets/video/5.mp4')">
           <video
             src="./assets/video/5.mp4"
             poster="./assets/image/thumbnile/5.jpg"
+            loading="lazy"
           ></video>
         </li>
       </ul>
@@ -137,10 +147,10 @@
     <!-- end credit -->
 
     <!-- import external script -->
-    <script src="./src/script/script.js"></script>
-    <script src="./src/script/audio.js"></script>
-    <script src="./src/script/video.js"></script>
-    <script src="./src/script/Shimage.js"></script>
-    <script src="./src/script/credit.js"></script>
+    <script src="./src/script/script.js" defer></script>
+    <script src="./src/script/audio.js" defer></script>
+    <script src="./src/script/video.js" defer></script>
+    <script src="./src/script/Shimage.js" defer></script>
+    <script src="./src/script/credit.js" defer></script>
   </body>
 </html>

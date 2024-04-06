@@ -10,6 +10,9 @@
     margin-bottom: 200px;
 }
 
+.top-image:hover, .bottom-image:hover{
+    box-shadow: 0 5px 30px 5px rgba(94, 172, 255, 0.8);
+}
 /* Style untuk gambar di bagian atas */
 .top-image {
     margin-top: 130px;
@@ -17,7 +20,7 @@
 
 /* Style untuk gambar di bagian bawah */
 .bottom-image {
-    margin-top: 10px; /* Jarak antara gambar */
+    margin-top: 20px; /* Jarak antara gambar */
 }
 
 /* Default style untuk gambar */
