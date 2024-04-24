@@ -5,7 +5,7 @@
 }
 
 body{
-  background-image: url('/assets/image/BG.png');
+  background-image: url('./assets/image/BG.png');
   background-color: #71addc;
   display: flex; /* Gunakan flexbox */
   flex-direction: column;
